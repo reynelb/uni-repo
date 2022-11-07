@@ -1,6 +1,6 @@
 # University
 
-In this repository will be the mainly information about the U 
+##Schedule  
 
 Monday 
 ![image](https://user-images.githubusercontent.com/71462611/200416519-b722b341-309e-48c2-bf72-7159ab52d42e.png)
