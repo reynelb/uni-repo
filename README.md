@@ -1,18 +1,17 @@
-# University
-
-##Schedule  
+# University 
 
 Monday 
-![image](https://user-images.githubusercontent.com/71462611/200416519-b722b341-309e-48c2-bf72-7159ab52d42e.png)
+![image](https://user-images.githubusercontent.com/71462611/200417529-5445885e-3913-41f6-9f7c-63c6067c30c6.png)
 
 Tuesday 
-![image](https://user-images.githubusercontent.com/71462611/200416613-6f5023ea-b0fd-4b52-9ec2-91a88b5323a7.png)
+![image](https://user-images.githubusercontent.com/71462611/200417608-67ae35f1-ba50-4e1e-bc59-b45d4eb38403.png)
 
 Wednesday 
-![image](https://user-images.githubusercontent.com/71462611/200416695-8ef12b16-c59f-42a6-8940-9685ca4c4b86.png)
+![image](https://user-images.githubusercontent.com/71462611/200417685-0ae314ad-bf8b-42d4-937c-34c945cecdc9.png)
 
 Thursday 
-![image](https://user-images.githubusercontent.com/71462611/200416797-34468f5e-722f-43c4-b993-4d6a0b25990a.png)
+![image](https://user-images.githubusercontent.com/71462611/200417773-4ad7f755-9220-4e8f-a2d2-00a6ea1b98fa.png)
 
 Friday 
-![image](https://user-images.githubusercontent.com/71462611/200416888-aed9bf86-0d97-4801-853d-37c649b2f273.png)
+![image](https://user-images.githubusercontent.com/71462611/200417885-e106f025-80ae-4a53-90c9-0d3a6a3724ab.png)
+
