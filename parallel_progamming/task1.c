@@ -6,32 +6,27 @@ int main()
     double a, b, c; 
     
     printf("a: ");
-    scanf("%d", &a);
+    scanf("%lf", &a);
     printf("b: ");
-    scanf("%d", &b);
+    scanf("%lf", &b);
     printf("c: ");
-    scanf("%d", &c);
+    scanf("%lf", &c);
     
     
-    double stepSize, volume, currentX, currentZ; 
-    int numberOfSteps = 10; 
-    stepSize = 10.0 / numberOfSteps; 
+    double stepSize, volume, radius, y_value; 
+    int numberOfSteps = 1000; 
+    stepSize = 10.0 / numberOfSteps; // This defines the thickness of the disk 
     volume = 0; 
 
-    // Integrate using the disc method from x = 0 to x = 10
     for (int i = 0; i < numberOfSteps; i++)
     {
-        // Calculate the current value of the distance from the paraboloid's central axis 
-        currentX = i * stepSize; 
+    
+        y_value = i * stepSize;
+        radius = sqrt(a*y_value*y_value + b*y_value + c);
+        
+        double cylinderVolume = M_PI * pow(radius, 2) * y_value;
 
-        // Determine the depth of the paraboloid at the current X using the ax^2 + bx + c
-        currentZ = a*currentX*currentX + b*currentX + c; 
-
-        // dV = pi * (radius^2) * thickness
-        double discVolume = M_PI * pow(currentX, 2) * stepSize; 
-
-        // Sum up all the disc volumes to approximate the total volume of paraboloid
-        volume += discVolume; 
+        volume += cylinderVolume;
         
     }
     
