@@ -1,0 +1,6 @@
+debo hacer como un paint para el task 2, en el cual escojo la forma y el color y modifico 
+la dimension con el mouse
+
+
+### Necesito hacer una modificacion para que el 2do triangulo aparezca en otro lugar, y no junto con el otro
+ #######

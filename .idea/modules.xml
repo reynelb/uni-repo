@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/computer_graphics/IdeaProjects/Lab1/Lab1.iml" filepath="$PROJECT_DIR$/computer_graphics/IdeaProjects/Lab1/Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/computer_graphics/IdeaProjects/Lab2/Lab2.iml" filepath="$PROJECT_DIR$/computer_graphics/IdeaProjects/Lab2/Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/computer_graphics/IdeaProjects/Lab3_task4/Lab3_task4.iml" filepath="$PROJECT_DIR$/computer_graphics/IdeaProjects/Lab3_task4/Lab3_task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/computer_graphics/IdeaProjects/task1/task1.iml" filepath="$PROJECT_DIR$/computer_graphics/IdeaProjects/task1/task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uni-repo.iml" filepath="$PROJECT_DIR$/.idea/uni-repo.iml" />
+    </modules>
+  </component>
+</project>
