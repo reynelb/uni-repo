@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <math.h>
+#include <omp.h>
 
 int main() {
     
-    double a;
-    printf("Enter coefficient a: ");
-    scanf("%lf", &a);
-
-    // Define the start and end of the x-interval 
+    double a = 10;
+     
     double startInterval = 0.0;      
     double endInterval = 100.0;   
 
-    // Set the number of slices or subintervals used for the numerical integration    
-    int numSlices = 10000; 
+       int numSlices = 2000000000; 
 
-    // Calculate the width of each slice or subinterval
+
     double width = (endInterval - startInterval) / numSlices;
 
     double totalVolume = 0.0;
+
+    double start = omp_get_wtime();
+    #pragma omp parallel for reduction (+:totalVolume)
     for (int i = 0; i < numSlices; i++) {
         //Calculate the "x" value for the current slice
         double xValue = startInterval + i * width;
@@ -27,8 +27,11 @@ int main() {
         
         totalVolume += M_PI * yValue * yValue * width;
     }
+    double end = omp_get_wtime();
+    double difference = end - start; 
 
     printf("Volume of the paraboloid: %.2f\n", totalVolume);
+    printf("Difference between end and start: %f\n", difference);
 
     return 0;
 }
