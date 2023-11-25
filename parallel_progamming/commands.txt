@@ -1,2 +1,0 @@
-sbatch -n 12 --partition=stu --mem-per-cpu=5G ./start1.sh
-gcc task1.c -o task1 -lm -fopenmp -std=gnu99   
