@@ -3,8 +3,6 @@
 
 //Hacer una comparacion con esta y la forma de standart de la libreria 
 
-// Function to calculate factorial
-//long long factorial(int n);
 
 // Function to compute sine using Taylor series
 double sineTaylor(double x, int terms);
@@ -35,14 +33,6 @@ int main() {
 
     return 0;
 }
-
-// long long factorial(int n) {
-//     long long fact = 1;
-//     for (int i = 1; i <= n; i++) {
-//         fact *= i;
-//     }
-//     return fact;
-// }
 
 double sineTaylor(double x, int terms) {
     double result = 0.0;
